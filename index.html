@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/libs/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/libs/css/normalize.css"><!-- main style -->
+    <link rel="stylesheet" href="css/style.css"><!-- scripts libs -->
+    <script src="./assets/libs/js/swiper.bundle.min.js" defer="defer"></script>
+    <script src="./js/main.js" defer="defer"></script>
+</head>
+<body class="page page--main">
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="index.html" class="header__logo">
+                Logo
+            </a>
+            <ul class="header__nav">
+                <li class="header__nav-item">
+                    <a href="index.html" class="header__nav-link">
+                        Home
+                    </a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="create.html" class="header__nav-link">
+                        Create
+                    </a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="actions.html" class="header__nav-link">
+                        Actions
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<main><!--Блок - главное инфо - Два слайдера -->
+    <section class="hero">
+        <div class="hero__wrapper">
+            <div class="hero__slider-wrapper hero__slider-wrapper--primary">
+                <div class="hero__slider-primary slider-primary">
+                    <button class="btn slider-primary__btn">Отправить заявку</button>
+                    <div class="swiper-wrapper" id="slider-content"><!-- Slides -->
+                       
+                    </div>
+                </div>
+                <div class="slider-primary__swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+</main>
+<script src="./js/script.js"></script>
+</body>
+</html>
